@@ -1,0 +1,19 @@
+{
+  "comments": false,
+  "env": {
+    "testing-unit": {
+      "presets": ["es2015", "stage-3"],
+      "plugins": ["istanbul"]
+    },
+    "main": {
+      "presets": ["es2015", "stage-3"]
+    },
+    "renderer": {
+      "presets": [
+        ["es2015", { "modules": false }],
+        "stage-3"
+      ]
+    }
+  },
+  "plugins": ["transform-runtime"]
+}
